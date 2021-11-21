@@ -19,6 +19,7 @@ import EditProduct from "./pages/EditProduct";
 import StoreProfile from "./pages/StoreProfile";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchUser } from "../components/redux/actions/userActions";
+import ProductDetail from "./pages/ProductDetail/index";
 
 export default function App() {
     const dispatch = useDispatch();
