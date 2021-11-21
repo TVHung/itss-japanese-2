@@ -93,6 +93,13 @@ export default function App() {
                         path="/store/profile"
                         render={() => <StoreProfile />}
                     />
+                    <Route
+                        exact
+                        path="/Details"
+                        render={() => {
+                            return <ProductDetail/>;
+                        }}
+                    />
                 </Switch>
             </Router>
         </Fragment>
